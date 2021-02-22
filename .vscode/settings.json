@@ -1,0 +1,26 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "salesforcedx-vscode-core.show-cli-success-msg": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.cls-meta.xml": true,
+    "**/*.js-meta.xml": true,
+    "**/*.js.map": true,
+    "**/*.trigger-meta.xml": true,
+    "**/**Test.cls": false,
+    "**/force-app/main/default/{a*,callCenters,cleanDataServices,communities,components,connectedApps,contentassets,cspTrustedSites,customMetadata,customPermissions,d*,e*,f*,g*,h*,i*,labels,layouts,letterhead,liveChatAgentConfigs,liveChatButtons,liveChatDeployments,lwc-tests,L*,m*,n*,objectTranslations,p*,q*,r*,s*,tabs,topicsForObjects,u*,w*}": false,
+    "**/force-app/main/default/lwc": false,
+    "**/force-app/main/default/objects": false,
+    "**/force-app/main/default/triggers": false,
+    "**/Test**.cls": false
+  },
+  "explorerExclude.backup": null
+}
