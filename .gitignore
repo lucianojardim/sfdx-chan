@@ -36,3 +36,8 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# IDE
+.vscode
+.history
+.playground
